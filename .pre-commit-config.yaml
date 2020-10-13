@@ -30,7 +30,7 @@ repos:
         args: [--remove]
 
   - repo: https://github.com/timothycrosley/isort
-    rev: 2e02c195afdb499be9068ca0d08c9d7d45912d4d  # frozen: 5.5.4
+    rev: 6bb47b7acc1554ecb59d2855e9110c447162f674  # frozen: 5.6.4
     hooks:
       - id: isort
 
@@ -64,7 +64,7 @@ repos:
       - id: black
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: 86a6c50edae12eca8adbf9435e9e9edeb7e55bb0  # frozen: v2.4.0
+    rev: 86bbcd5d250b1fd193e0589f856a180fe0f834f6  # frozen: v2.4.1
     hooks:
       - id: commitizen
         stages: [commit-msg]
